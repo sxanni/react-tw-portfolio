@@ -5,8 +5,8 @@ import { FiArrowRightCircle } from "react-icons/fi";
 const Home = () => {
   return (
     <div name="home" 
-    className=" h-screen w-full bg-gradient-to-b from-black to bg-gray-800 pt-5 ">
-      <div className="pt-5 mt-32 max-w-screen-lg mx-auto translate-y-40 md:translate-y-0 
+    className=" h-screen w-full bg-gradient-to-b from-black to bg-gray-800 pt-5 pb-20 md:pb-5 ">
+      <div className="pt-8 mt-32 max-w-screen-lg mx-auto translate-y-40 md:translate-y-0 
       flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="pt-5 flex flex-col justify-center h-full">
           <h2 className=" text-4xl sm:text-7xl font-bold text-white mb-5 px-4" > I'm a Full Stack Designer </h2>
@@ -29,7 +29,7 @@ const Home = () => {
 
         <div>
             <img src={heroImage} alt="my profile" 
-            className="rounded-2xl mx-auto w-2/3 md:w-full mt-2"></img>
+            className="rounded-2xl mx-auto w-2/3 md:w-full md:mt-3 mt-10"></img>
         </div>
       </div>
       {/* <img src={heroImage} alt=" " className="" /> */}
