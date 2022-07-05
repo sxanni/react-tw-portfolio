@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import icon from "../assets/icon.gif";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
@@ -30,11 +31,12 @@ const NavBar = () => {
   
   return (
     <div
-    style={{zIndex: '100'}}
+    style={{zIndex: '100'}} //this brings navbar to top , above the other components
       className=" flex justify-between items-center w-full h-20 text-white 
     fixed bg-black px-4 py-1"
     >
-      <div className="name text-5xl font-signature ml-2 pt-2 bg-black ">Sanni</div>
+      <img src={icon} alt="" className="w-12 mr" />
+      <div className="name text-5xl font-signature mr-52 lg:mr-36 xl:-translate-x-60 lg:-translate-x-36 pt-2 bg-black ">Sanni</div>
       <ul className="hidden md:flex bg-black">
         {/* map link to links array */}
         {links.map(({ id, link }) => (

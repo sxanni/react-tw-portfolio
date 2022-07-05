@@ -36,15 +36,17 @@ const Portfolio = () => {
   ]
 
   return (
-    <div name="portfolio"
-    className="pt-96 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
-      <div classNamez="max-w-screen-lg p-4 md:pt-30 xl:mx-auto md:mx-5 flex md:flex-col md:justify-center item-center w-full h-full" >
-        <div className="pb-8 sm:pt-0 pt-20 pl-12 bg-gradient-to-b from-gray-800 to-black w-full" > 
+    <div 
+    style={{paddingTop: 800}}
+    name="portfolio"
+    className="pt-96  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+      <div className="max-w-screen-lg p-4  md:pt-20 xl:mx-auto md:mx-0 flex md:flex-col md:justify-center item-center w-full h-full" >
+        <div className="pb-8 sm:pt-0 pt-20 pl-6 bg-gradient-to-b from-gray-800 to-black w-full" > 
           <p className="text-4xl font-bold inline pt border-b-4 border-grey-500 ml-"> Portfolio </p>
           <p className="py-6"> Check out some of my work right here. </p>
         </div>
           
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 md:px-15 bg-gradient-to-b from-black to-gray-800 w-full"> 
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 md:px-15 bg-gradient-to-b from-black to-gray-800 w-full"> 
         {/* make sure your array map (portfolios.map) is within the grid so you dont accidentally map multiple cols */}
         
         {
@@ -61,7 +63,7 @@ const Portfolio = () => {
           </div>
           ))
 
-        };
+        }
 
         </div>
 
