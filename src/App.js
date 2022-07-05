@@ -14,17 +14,17 @@ function App() {
     
     <div>
 
-      <div>
-      <NavBar />
-      </div>
+      {/* <div> */}
+      {/* </div> */}
       {/* <Route exact path="/" component={Home} /> */}
 
+      <NavBar />
       <Home />
       <About />
       <Portfolio />
       <Experience />
-      <Contact />
-      <Gallery />
+      {/* <Contact /> */}
+      {/* <Gallery /> */}
 
       <SocialLinks />
       {/* <Route to="" component={Contact} /> */}

@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import NavBar from "./components/NavBar";
+
 
 const Contact = () => {
   return (
     <div name="contact" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black p-10 pt-80 text-white'>
+        <NavBar/>
        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8 mt-20'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>

@@ -37,7 +37,7 @@ const Portfolio = () => {
 
   return (
     <div 
-    style={{paddingTop: 800}}
+    style={{paddingTop: 500}}
     name="portfolio"
     className="pt-96  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
       <div className="max-w-screen-lg p-4  md:pt-20 xl:mx-auto md:mx-0 flex md:flex-col md:justify-center item-center w-full h-full" >

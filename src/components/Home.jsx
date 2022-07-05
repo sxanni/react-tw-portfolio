@@ -1,6 +1,8 @@
 import React from "react";
 import heroImage from "../assets/heroImage.jpg";
 import { FiArrowRightCircle } from "react-icons/fi";
+import {Link} from "react-scroll";
+
 
 const Home = () => {
   return (
@@ -17,13 +19,13 @@ const Home = () => {
             React, Tailwind, Bootstrap & Firebase.
           </p>
           <div className="px-5" >
-            <button className="text-white cursor-pointer w-fit  px-6 py-3 my-5 flex items-center border-white border  rounded-md bg-gradient-to-r
+            <Link to="portfolio" smooth duration={500} className="text-white cursor-pointer w-fit  px-6 py-3 my-5 flex items-center border-white border  rounded-md bg-gradient-to-r
            from-black to-black hover:to-slate-700 ">
               Portfolio
               <span className="hover:rotate-90 duration-300 ml-5  hover:-translate-y-1" >
                 <FiArrowRightCircle size={25} className="ml-2" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
