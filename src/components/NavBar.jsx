@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import icon from "../assets/icon.gif";
 import { FaBars, FaTimes } from "react-icons/fa";
-import {Link} from "react-scroll";
+import {Link as LinkS} from "react-scroll";
+import {Link as LinkR} from "react-router-dom";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false); //set state in order to flip hamburger icon
@@ -11,22 +12,34 @@ const NavBar = () => {
     {
       id: 1,
       link: "home",
+      to: "/",
+      Link: "LinkR",
     },
-    {
-      id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
-      link: "portfolio",
-    },
-    {
-      id: 4,
-      link: "experience",
-    },
+    // {
+    //   id: 2,
+    //   link: "about",
+    //   to: "/",
+    //   Link: "LinkS",
+
+    // },
+    // {
+    //   id: 3,
+    //   link: "portfolio",
+    //   to: "portfolio",
+    //   Link: "LinkS",
+    // },
+    // {
+    //   id: 4,
+    //   link: "experience",
+    //   to: "experience",
+    //   Link: "LinkS",
+
+    // },
     {
       id: 5,
       link: "contact",
+      to: "/Contact" ,
+      Link: LinkR,
     },
   ];
   
@@ -40,7 +53,7 @@ const NavBar = () => {
       <div className="name text-5xl font-signature mr-52 lg:mr-36 xl:-translate-x-60 lg:-translate-x-36 pt-2 bg-black ">Sanni</div>
       <ul className="hidden md:flex bg-black">
         {/* map link to links array */}
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, to, }) => (
           // insert li tag with properties you want for each link
 
           <li
@@ -51,7 +64,7 @@ const NavBar = () => {
           >
             {/* link value (name) will be outputted below. oonc */}
 
-            <Link to={link} smooth duration={500}>{link}</Link>
+            <LinkR to={to} smooth="true" duration={500}>{link}</LinkR>
           </li>
         ))}
       </ul>
@@ -73,7 +86,7 @@ const NavBar = () => {
       from-black to-gray-800 text-gray-500"
         >
           {/* map link to links array */}
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, to, Link }) => (
             // insert li tag with properties you want for each link
 
             <li
@@ -83,7 +96,7 @@ const NavBar = () => {
          text-gray-500 hover:text-white hover:scale-110 duration-200 "
             >
               {/* link value (name) will be outputted here */}
-              <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+              <LinkR onClick={() => setNav(!nav)} to={to} smooth="true" duration={500}>{link}</LinkR>
             </li>
           ))}
         </ul>

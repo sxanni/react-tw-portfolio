@@ -4,9 +4,9 @@ import { FiArrowRightCircle } from "react-icons/fi";
 import {Link} from "react-scroll";
 
 
-const Home = () => {
+const Header = () => {
   return (
-    <div name="home" 
+    <div name="header" 
     className=" h-screen w-full bg-gradient-to-b from-black to bg-gray-800 pt-5 pb-20 md:pb-5 ">
       <div className="pt-8 mt-32 max-w-screen-lg mx-auto translate-y-40 md:translate-y-0 
       flex flex-col items-center justify-center h-full px-4 md:flex-row ">
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Header;
