@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div
       name="about"
-      className="h-screen w-full  bg-gradient-to-b from-gray-800 to bg-black text-white  pt-96  md:pt-96"
+      className="h-screen w-full bg-gradient-to-b from-gray-800 to bg-black text-white pt-96 md:pt-96"
     >
-      <div className=" max-w-screen-lg p-10  pt-80  sm:pt-36 mx-auto flex flex-col justify-center w-full h-full " >
-        <div className="pb-8 sm:mt-10 sm:pt-10" >
+      <div className=" max-w-screen-lg px-20  pt-40  sm:pt-10 mx-auto flex flex-col justify-center w-full h-full " >
+        <div className="pb-1 mt-32 sm:mt-10 sm:pt-10" >
           <p className="text-4xl font-bold inline border-b-4 border-gray-800" >About</p>
         </div>
         <p className="text-xl mt-10" >
@@ -18,7 +18,7 @@ const About = () => {
         strong eye for detail and positive attitude to everything that I do.
         </p >
         <br />
-        <p className="text-xl mt-5" >
+        <p className="text-xl mt-5 mb-8" >
         If you're looking for help with your online image, branding, 
         Art direction or Web design, but aren't sure which direction to take, 
         feel free to Get in touch with me.

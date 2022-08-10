@@ -8,17 +8,23 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import SocialLinks from "./components/SocialLinks";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { HashRouter,BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route exact path="/" element={<Home />} />
+    //     <Route path="/contact" element={<Contact />} />
+    //   </Routes>
+    // </BrowserRouter>
     // <BrowserRouter>
     // <div className="container mt-2" style={{ marginTop: 40 }}>
     //     <NavBar />
