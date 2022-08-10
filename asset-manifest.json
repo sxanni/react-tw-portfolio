@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tw-portfolio/static/css/main.47f88dbe.css",
-    "main.js": "/react-tw-portfolio/static/js/main.7398f65b.js",
+    "main.css": "/react-tw-portfolio/static/css/main.6b52cc75.css",
+    "main.js": "/react-tw-portfolio/static/js/main.0f68bdb5.js",
     "static/media/rockPaperShonen.gif": "/react-tw-portfolio/static/media/rockPaperShonen.75ac8cf685488ece1a63.gif",
     "static/media/xthetics.gif": "/react-tw-portfolio/static/media/xthetics.0660240b1dc6b597f8a1.gif",
     "static/media/bootstrapWater.gif": "/react-tw-portfolio/static/media/bootstrapWater.7e9f18721b676605a7a4.gif",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/react-tw-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-tw-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tw-portfolio/index.html",
-    "main.47f88dbe.css.map": "/react-tw-portfolio/static/css/main.47f88dbe.css.map",
-    "main.7398f65b.js.map": "/react-tw-portfolio/static/js/main.7398f65b.js.map"
+    "main.6b52cc75.css.map": "/react-tw-portfolio/static/css/main.6b52cc75.css.map",
+    "main.0f68bdb5.js.map": "/react-tw-portfolio/static/js/main.0f68bdb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.47f88dbe.css",
-    "static/js/main.7398f65b.js"
+    "static/css/main.6b52cc75.css",
+    "static/js/main.0f68bdb5.js"
   ]
 }
