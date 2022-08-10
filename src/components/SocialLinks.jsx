@@ -17,7 +17,7 @@ const SocialLinks = () => {
           LinkedIn <TiSocialLinkedinCircular size={25} className="ml-5" />
         </>
       ),
-      href: 'https//linkedin.com',
+      href: 'https://www.linkedin.com/in/opeyemi-sanni-0988a1167/',
       style: 'rounded-tr-md',
     },
     {
@@ -27,7 +27,7 @@ const SocialLinks = () => {
           Github <TiSocialGithubCircular size={25} className="ml-5" />
         </>
       ),
-      href: "https//github.com/sxanni",
+      href: "http://github.com/sxanni",
     },
     {
       id:3,
@@ -45,7 +45,7 @@ const SocialLinks = () => {
           Instagram <TiSocialInstagramCircular size={25} className="ml-5" />
         </>
       ),
-      href: "https//instagram.com",
+      href: "https://www.instagram.com/x234.wav/",
     },
     {
       id:5,

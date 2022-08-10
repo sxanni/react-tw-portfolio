@@ -7,6 +7,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -14,9 +15,15 @@ const Home = () => {
         <NavBar/>
          <Header />
             <About />
-            <Portfolio />
+            <div className="mb-5">
+
+            <Portfolio  />
+            </div>
             <Experience />
+            
             <SocialLinks />
+            <br/>
+          <Footer />
     </div>
   )
 }

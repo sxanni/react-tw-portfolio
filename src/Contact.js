@@ -1,5 +1,7 @@
 import React from 'react';
 import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
+
 
 
 {/* <NavBar/> */}
@@ -7,6 +9,8 @@ function Contact() {
   return (
     <div>
       <NavBar/>
+      <SocialLinks />
+
     <div name="Contact" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black p-10 pt-80 text-white'>
        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8 mt-20'>

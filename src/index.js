@@ -18,6 +18,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 //     <App />
 //   </BrowserRouter>
 // );
+
+
+
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
@@ -32,6 +35,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 //   </React.StrictMode>,
 //   // document.getElementById('root')
 // );
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
