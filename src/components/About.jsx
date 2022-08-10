@@ -11,17 +11,17 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-800" >About</p>
         </div>
         <p className="text-xl mt-10" >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          iusto, sunt, molestiae mollitia dolorem rerum dignissimos porro nemo
-          ab nihil repellendus maiores minus laborum aspernatur distinctio amet
-          doloribus beatae praesentium!
+        I am a Designer, Visual artist, Composer/Sound Engineer and Technology enthusiast.
+        am based in Toronto ON. My work focuses on creating Visually compelling 
+        imagery for my clients in order to better connect with their audience.
+        I excel at creative problem solving and I always bring my flexibility, 
+        strong eye for detail and positive attitude to everything that I do.
         </p >
         <br />
         <p className="text-xl mt-5" >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          exercitationem commodi iste quas molestias ipsum, doloribus temporibus
-          saepe voluptas ducimus vitae soluta porro. Enim, doloremque! Et iste
-          eligendi excepturi animi?
+        If you're looking for help with your online image, branding, 
+        Art direction or Web design, but aren't sure which direction to take, 
+        feel free to Get in touch with me.
         </p>
       </div>
     </div>
