@@ -50,7 +50,7 @@ const NavBar = () => {
     fixed bg-black px-4 py-1"
     >
       <img src={icon} alt="" className="w-12 mr" />
-      <div className="name text-5xl font-signature mr-52 lg:mr-36 xl:-translate-x-60 lg:-translate-x-36 pt-2 bg-black ">Sanni</div>
+      <div className="name text-5xl font-signature mr-52 lg:mr-36 xl:-translate-x-60 lg:-translate-x-36 pt-2 bg-black ">Sanni . dev</div>
       <ul className="hidden md:flex bg-black">
         {/* map link to links array */}
         {links.map(({ id, link, to, }) => (

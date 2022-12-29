@@ -10,14 +10,14 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Rock Paper Shonen",
-      src: rockPaperShonen,
-      demohref: "https://sxanni.github.io/fatasy-clash/",
-      codehref: "https://github.com/sxanni/fatasy-clash",
+      title:"[Water] responsive bootstrap",
+      src: bootstrapWater,
+      demohref:"https://sxanni.github.io/water/",
+      codehref:"https://github.com/sxanni/water"
     },
     {
       id: 2,
-      title: "VHS CLUB Form Validation",
+      title: "[VHS CLUB] Form Validation",
       src: vhsFormReact,
       demohref: "https://sxanni.github.io/reactForm-Validation/",
       codehref: "https://github.com/sxanni/reactForm-Validation",
@@ -26,7 +26,8 @@ const Portfolio = () => {
       id: 3,
       title: "[TaskAura] Gamefied ToDo List",
       src: taskAura,
-      demohref: "https://www.figma.com/proto/vh7mWzH1fFFs0jKBX9tn2w/TaskAura-TODO-App?page-id=222%3A2&node-id=222%3A308&viewport=344%2C198%2C0.18&scaling=min-zoom&starting-point-node-id=222%3A308",
+      demohref: "https://sxanni.github.io/ReactTaskAura/",
+      // demohref: "https://www.figma.com/proto/vh7mWzH1fFFs0jKBX9tn2w/TaskAura-TODO-App?page-id=222%3A2&node-id=222%3A308&viewport=344%2C198%2C0.18&scaling=min-zoom&starting-point-node-id=222%3A308",
       codehref: "https://github.com/sxanni/ReactTaskAura"
     },
     {
@@ -38,10 +39,10 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title:"[Water] responsive bootstrap",
-      src: bootstrapWater,
-      demohref:"https://sxanni.github.io/water/",
-      codehref:"https://github.com/sxanni/water"
+      title: "[Rock Paper Shonen] Anime Game",
+      src: rockPaperShonen,
+      demohref: "https://sxanni.github.io/fatasy-clash/",
+      codehref: "https://github.com/sxanni/fatasy-clash",
     },
  
   ];

@@ -11,7 +11,7 @@ const Header = () => {
       <div className="pt-8 mt-12 max-w-screen-lg mx-auto translate-y-40 md:translate-y-0 
       flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="pt-5 flex flex-col justify-center h-full">
-          <h2 className=" text-4xl sm:text-7xl font-bold text-white mb-5 px-4" > I'm a Full Stack Designer </h2>
+          <h2 className=" text-4xl sm:text-7xl font-bold text-white mb-5 px-4" > I'm a Front End Designer/Developer </h2>
 
           <p className="text-gray-500 px-5  py-4  max-w-md" >
             I have 6 years of experience designing User experiences and 2 years of experience developing and designing software.
